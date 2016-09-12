@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MOVIE MANIA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dh8-O2-gnV">
+                                <rect key="frame" x="199" y="238" width="203" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="you want about" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLh-IC-gmm">
+                                <rect key="frame" x="241" y="314" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="the movies you like!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6z-qk-oKI">
+                                <rect key="frame" x="224" y="339" width="151" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find the information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SL3-zm-Qgy">
+                                <rect key="frame" x="223" y="289" width="154" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movie-icon-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="DSy-KI-QEw">
+                                <rect key="frame" x="232" y="90" width="136" height="136"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="136" id="Mmt-NG-IDj"/>
+                                    <constraint firstAttribute="width" constant="136" id="sUs-g6-qkb"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="searchIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="set-r7-R2o">
+                                <rect key="frame" x="232" y="372" width="136" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="136" id="E8G-kT-4e7"/>
+                                    <constraint firstAttribute="width" constant="136" id="wCp-F7-B1k"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.086274509799999996" green="0.1176470588" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SL3-zm-Qgy" firstAttribute="top" secondItem="Dh8-O2-gnV" secondAttribute="bottom" constant="12" id="1wf-RG-adz"/>
+                            <constraint firstItem="K6z-qk-oKI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="80a-e1-vhR"/>
+                            <constraint firstItem="K6z-qk-oKI" firstAttribute="top" secondItem="mLh-IC-gmm" secondAttribute="bottom" constant="4" id="AUf-Av-ymB"/>
+                            <constraint firstItem="mLh-IC-gmm" firstAttribute="top" secondItem="SL3-zm-Qgy" secondAttribute="bottom" constant="4" id="BXq-hV-rXg"/>
+                            <constraint firstItem="DSy-KI-QEw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="EmQ-3o-9Zq"/>
+                            <constraint firstItem="SL3-zm-Qgy" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ILx-UU-Obq"/>
+                            <constraint firstItem="mLh-IC-gmm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="K7h-8B-VyD"/>
+                            <constraint firstItem="Dh8-O2-gnV" firstAttribute="top" secondItem="DSy-KI-QEw" secondAttribute="bottom" constant="12" id="Pi9-bO-rFv"/>
+                            <constraint firstItem="mLh-IC-gmm" firstAttribute="top" secondItem="Dh8-O2-gnV" secondAttribute="bottom" constant="12" id="V4z-ob-gAu"/>
+                            <constraint firstItem="set-r7-R2o" firstAttribute="top" secondItem="K6z-qk-oKI" secondAttribute="bottom" constant="12" id="clS-RN-EDs"/>
+                            <constraint firstItem="Dh8-O2-gnV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dNC-hY-9Wx"/>
+                            <constraint firstItem="set-r7-R2o" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kQX-8u-geS"/>
+                            <constraint firstItem="K6z-qk-oKI" firstAttribute="top" secondItem="mLh-IC-gmm" secondAttribute="bottom" constant="4" id="pB7-Oh-LCk"/>
+                            <constraint firstItem="SL3-zm-Qgy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sLB-wm-kgN"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="V4z-ob-gAu"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="movie-icon-2.png" width="512" height="512"/>
+        <image name="searchIcon.png" width="128" height="128"/>
+    </resources>
+</document>
