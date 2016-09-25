@@ -1,0 +1,80 @@
+{
+    "items":[
+             {
+             "channel": "Podcasts",
+             "title":"Living Through The Gap",
+             "urltitle":"on_constantly_being_a_vessel_for_gods_will",
+             "entry_date":"2016-05-15T16:11:00-04:00",
+             "media-description":"Worship Christ today as our High Priest. He sits at the right hand of God,  interceding for us before the Father.  Because we are HIs, our prayers are powerful and effective.",
+             "media-reference":"I Thessalonians 5:16-18",
+             "media-speaker":"Dr. Joel Hunter",
+             "media-week":"20",
+             "media-podcast":true,
+             "media-embed":"167169933",
+             "media-image":"http://www.northlandchurch.net/_img/uploads/community_of_eternal_life_thumb.jpg",
+             "media-primary":"bridgeWithClouds.jpg",
+             "media-file": "podcast1"
+             },
+             {
+             "channel": "Podcasts",
+             "title":"In The Midst Of Hostility",
+             "urltitle":"on_constantly_being_a_vessel_for_gods_will",
+             "entry_date":"2016-05-15T16:11:00-04:00",
+             "media-description":"Worship Christ today as our High Priest. He sits at the right hand of God,  interceding for us before the Father.  Because we are HIs, our prayers are powerful and effective.",
+             "media-reference":"I Thessalonians 5:16-18",
+             "media-speaker":"Vernon Rainwater",
+             "media-week":"20",
+             "media-podcast":true,
+             "media-embed":"167169933",
+             "media-image":"http://www.northlandchurch.net/_img/uploads/community_of_eternal_life_thumb.jpg",
+             "media-primary":"desertWithTree.jpg",
+             "media-file": "podcast2"
+             },
+             {
+             "channel": "Podcasts",
+             "title":"Living In Practical Principles",
+             "urltitle":"on_constantly_being_a_vessel_for_gods_will",
+             "entry_date":"2016-05-15T16:11:00-04:00",
+             "media-description":"Worship Christ today as our High Priest. He sits at the right hand of God,  interceding for us before the Father.  Because we are HIs, our prayers are powerful and effective.",
+             "media-reference":"I Thessalonians 5:16-18",
+             "media-speaker":"Pete Geiger",
+             "media-week":"20",
+             "media-podcast":true,
+             "media-embed":"167169933",
+             "media-image":"http://www.northlandchurch.net/_img/uploads/community_of_eternal_life_thumb.jpg",
+             "media-primary":"superCloudsAroundHilltop.jpg",
+             "media-file": "podcast3"
+             },
+             {
+             "channel": "Podcasts",
+             "title":"Building A New Foundation",
+             "urltitle":"on_constantly_being_a_vessel_for_gods_will",
+             "entry_date":"2016-05-15T16:11:00-04:00",
+             "media-description":"Worship Christ today as our High Priest. He sits at the right hand of God,  interceding for us before the Father.  Because we are HIs, our prayers are powerful and effective.",
+             "media-reference":"I Thessalonians 5:16-18",
+             "media-speaker":"Pastor Matt Heard",
+             "media-week":"20",
+             "media-podcast":true,
+             "media-embed":"167169933",
+             "media-image":"http://www.northlandchurch.net/_img/uploads/community_of_eternal_life_thumb.jpg",
+             "media-primary":"hillWideshot.jpg",
+             "media-file": "podcast4"
+             },
+             {
+             "channel": "Podcasts",
+             "title":"Finding A Mediator For Life",
+             "urltitle":"on_constantly_being_a_vessel_for_gods_will",
+             "entry_date":"2016-05-15T16:11:00-04:00",
+             "media-description":"Worship Christ today as our High Priest. He sits at the right hand of God,  interceding for us before the Father.  Because we are HIs, our prayers are powerful and effective.",
+             "media-reference":"I Thessalonians 5:16-18",
+             "media-speaker":"Dr. Joel Hunter",
+             "media-week":"20",
+             "media-podcast":true,
+             "media-embed":"167169933",
+             "media-image":"http://www.northlandchurch.net/_img/uploads/community_of_eternal_life_thumb.jpg",
+             "media-primary":"valleyWithSunset.jpg",
+             "media-file": "podcast5"
+             }
+        ]
+
+}
