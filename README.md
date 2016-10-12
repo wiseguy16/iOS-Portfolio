@@ -6,7 +6,7 @@ My name is Greg Weiss and I have a passion for building great Apps! I try to fin
 
 Developed by an audio engineer for audio technicians, AudioAssist is designed to minimize the chaos associated with band and/or show rehearsals. Customizable to venue and personnel, this complex (but easy to use) chat app is a quick and efficient means of communication between production technicians and the musicians they serve.
 
-![FingerPaints](https://github.com/wiseguy16/iOS-Portfolio/blob/master/FingerPaints.png)
+![FingerPaints](https://github.com/wiseguy16/iOS-Portfolio/blob/master/padShot1Itunes2.jpg)
 
 Written in Swift.
 
